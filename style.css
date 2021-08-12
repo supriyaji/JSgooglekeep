@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background:black;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.heading{
+    width: 100vw;
+    height: 5.5rem;
+    background-color:silver;
+    color: black;
+
+    box-shadow: 0px 10px 16px wheat;
+}
+h1{
+    line-height: 5.8rem;
+    margin-left: 2rem;
+    font-weight: 400;
+}
+.btn-div{
+    position: fixed;
+     top: 7rem;
+    right: 1rem; 
+}
+.add{
+ 
+   border: 0;
+   background: grey;
+   border-radius: 30px;
+   color:black;
+    cursor: pointer;
+   margin: 10px;
+    padding: 10px;
+    font-size: 25px;  
+}
+
+.note{
+    width: 400px;
+    height: 150px;
+    border: turquoise;
+    background: whitesmoke;
+    margin: 3%;
+    overflow: auto;
+}
+textarea{
+    outline: none;
+    font-size: 2rem;
+    border: none;
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    background-color:whitesmoke;
+    margin: 3%;
+}
+.edit{
+    background-color: green;
+    border-radius: 50px;  
+    width: 30px; height: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+
+}
+.delete{
+    background:red;
+    border-radius: 50px; 
+    width: 30px; height: 30px;
+    margin-top: 10px;
+    margin-left: 15px; 
+    
+}
+
+.fa-edit,
+.fa-trash-alt{
+    color:whitesmoke;
+
+      
+}
+.fa-trash-alt{
+    
+}
+
+
+.main{
+
+padding: 20px;
+font-size: 1.6rem;
+}
+.hidden{
+    display: none;
+}
